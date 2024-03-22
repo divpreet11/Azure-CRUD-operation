@@ -1,0 +1,25 @@
+{
+  "name": "azure-crud-operation",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "@azure/functions": "^4.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.0",
+    "http": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.3",
+    "node-cron": "^3.0.0",
+    "nodemon": "^2.0.15",
+    "slugify": "^1.6.5"
+  },
+  "devDependencies": {},
+  "main": "src/functions/*.js"
+}
+ 
